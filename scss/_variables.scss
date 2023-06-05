@@ -1,0 +1,21 @@
+$color-primario: #59c9a5;
+$color_secundario: rgb(191, 197, 189);
+$color_terciario: #acecd8;
+
+$espacio-chico: 10px;
+$espacio-mediano: 20px;
+$espacio-grande:30px;
+$celular: 768px;
+$tablet: 992px;
+$notebook: 1200px;
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
