@@ -2,3 +2,5 @@
 @media (min-width: $celular){.carousel-item img{height: 70vh;}}
 @media (min-width: $tablet){.carousel-item img{height: 90vh;}}
 @media (min-width: $notebook){.carousel-item img{height: 110vh;}}
+#carouselExample{margin-right:50px;margin-left: 50px;padding: 20px;}
+#carouselExample2 { @extend #carouselExample}

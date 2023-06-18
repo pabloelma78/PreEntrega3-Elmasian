@@ -18,6 +18,10 @@ ul :hover {
   font-size: large;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100%;
 }
@@ -74,7 +78,7 @@ iframe {
 
 p {
   text-align: justify;
-  padding: 15px;
+  padding: 7px;
 }
 
 .carousel-item img {
@@ -98,6 +102,12 @@ p {
     height: 110vh;
   }
 }
+#carouselExample, #carouselExample2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
 .videos {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +172,16 @@ p {
 
 .padre-card {
   max-width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.valor {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
